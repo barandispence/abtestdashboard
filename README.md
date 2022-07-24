@@ -2,6 +2,12 @@
 
 An easy to use A/B testing dashboard. Only requirement is statistics of control and test group.
 
+**How to Use**
+
+- Clone it.
+- Install streamlit and statsmodel packages.
+- Go to working directory and use "streamlit run abtest.py" command.
+
 **To-Do:**
 
 - Target Uplift (%) and required sample sizes.

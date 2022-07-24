@@ -1,9 +1,6 @@
-import numpy as np
 import streamlit as st
 from statsmodels.stats.power import zt_ind_solve_power
 from statsmodels.stats.proportion import proportions_ztest, proportion_confint
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
 def abtesting():
     alpha = 1-int(significance.strip('%'))/100
